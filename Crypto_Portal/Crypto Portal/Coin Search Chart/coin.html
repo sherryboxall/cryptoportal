@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Trends</title>
+    <link rel="stylesheet" href="../../css/idea1.css" />
+    <!-- CSS only -->
+    <link rel="icon" href="../../assets/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <div id="navigation-bar"></div>
+
+    <br />
+<!--<div>-->
+    <!--<h1>Coin Trends</h1>
+    <hr />
+  </div>-->
+  <div class="col" >
+    <!--<h2 class="name font-weight-bold mb-1" style="color: #93B5C6;">Sherry Boxall</h2>-->
+    <h1 class="ml6" style="padding-bottom: 25px; text-align: center;">
+      <span class="text-wrapper" style="margin-top: 100px; ">
+        <span class="letters" style="color: #93B5C6; padding-top: 100px;">Coin Data</span>
+      </span>
+    </h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+            <script src="../../js/animeml6.js"></script>
+  <div id="searchDiv" class="container">
+    <div class="input-group mb-3">
+      <input id="coinInput" type="text" class="form-control" placeholder="Enter a Coin" aria-describedby="btn-Search">
+      <button class="btn btn-outline-primary" type="button" id="btn-Search">Search</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6" id="chartResult1" style="height:500px;">
+        <canvas id="myChart1"></canvas>
+      </div>
+      <div class="col-6" id="chartResult2" style="height:500px;">
+        <canvas id="myChart2"></canvas>
+      </div>
+    </div>
+  
+
+
+  </div>
+
+
+  <div class="card-footer bg" style="background-color: #93B5C6; color: #FFE3E3; font-size: x-small; text-align: right;">Copyright Sherry Boxall 2021</div>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"
+></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+<script src="messari.js"></script>
+<script src="../navbar.js"></script>
+<script src="../js/scripts.js"></script>
+</body>
+</html>
