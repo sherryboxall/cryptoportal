@@ -12,7 +12,10 @@ Demonstrates dynamic programming with a blend of Javascript and AJAX and ChartsJ
 This will run locally in your browser from index.html if you download all files and ensure they're located in the same directory as each other and have the same file structure 
 
 ### Planned Future Improvements
-Include more charts, a gated portfolio page and finalize structure for price feed.
+- Include more charts
+- Create a gated portfolio tracker page
+-  Fix bugs in price feed
+-  Finish CSS
 
 
 ### Legal disclaimer
